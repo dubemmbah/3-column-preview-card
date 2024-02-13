@@ -15,15 +15,27 @@
 
     <title>3-column preview card component</title>
 
-    <!-- <style>
+    <style>
       .attribution {
-        font-size: 11px;
+        position: absolute;
+        bottom: 0.75%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 13px;
         text-align: center;
+        color: hsl(0, 1%, 44%);
+        opacity: 0.7;
       }
       .attribution a {
-        color: hsl(228, 45%, 44%);
+        color: hsl(0, 0%, 3%);
+        font-weight: bolder;
+        text-decoration: none;
       }
-    </style> -->
+
+      .attribution a:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
   <body>
     <main class="card-container">
@@ -61,11 +73,9 @@
       </article>
     </main>
 
-    <!-- <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div> -->
+     <div class="attribution">
+      Developed by
+      <a href="https://www.github.com/dubemmbah/">Chukwudubem Mbah</a>.
+    </div>
   </body>
 </html>
